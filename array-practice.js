@@ -68,9 +68,8 @@ var newNumber=[];
 	newNumber.push(y);
 }*/
 q5.forEach(function(item, index){
-	var item=q5[index];
-	var y=item+1;
-	newNumber.push(y)
+	var item=q5[index]+1;
+	newNumber.push(item)
 	
 });
 console.log("Question 5: " + newNumber);
