@@ -70,7 +70,6 @@ var newNumber=[];
 q5.forEach(function(item, index){
 	var item=q5[index]+1;
 	newNumber.push(item)
-	
 });
 console.log("Question 5: " + newNumber);
 /**
