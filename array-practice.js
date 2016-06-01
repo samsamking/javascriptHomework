@@ -61,15 +61,18 @@ console.log("Question 4: " + q4);
 
 // Your code here
 var q5=[1,2,3,4];
-var newNumber=[];
+//var newNumber=[];
 /*for (var i=0; i<q5.length; i++){
 	var x=q5[i];
 	var y=x+1;
 	newNumber.push(y);
 }*/
-q5.forEach(function(item, index){
+/*q5.forEach(function(item, index){
 	var item=q5[index]+1;
 	newNumber.push(item)
+});*/
+var newNumber=q5.map(function(numberInq5){
+	return numberInq5+1;
 });
 console.log("Question 5: " + newNumber);
 /**
